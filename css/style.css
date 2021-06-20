@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation bar making */
+#navbar{
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: 'Kaushan Script', cursive;;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#logo{
+    margin: 0px 20px;
+}
+#logo img{
+    width: 40px;
+    height: 40px;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li{
+    padding: 10px 30px;
+}
+#navbar ul li :hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    padding: 1px 5px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+/* Below nav bar making */
+#mid{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px 200px;
+   justify-content: center;
+   height: 250px;
+   font-family: 'Permanent Marker', cursive;
+   
+}
+#mid::before{
+    content: "";
+    background: url(../img/background.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.87;
+}
+#mid h1{
+   font-size: 2.4rem;
+   margin: 50px 20px;
+   margin-top: 200px;
+   background-color: rgb(150, 188, 221);
+   border-radius: 40px;
+   padding: 5px 20px;
+   transition: all .3s ease-in-out .1s;
+}
+#mid h1:hover{
+    width: 500px;
+    background-color: rgb(110, 42, 173);
+    cursor: pointer;
+    color: rgb(230, 235, 233);
+    font-size: 3.1rem;
+    border-radius: 40px;
+    height: 70px;
+    
+}
+#mid div{
+    margin: 20px 30px;
+    font-size: 1.3rem;
+    color: white;
+    
+}
+#btn{
+    margin: 30px 30px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-out 0s;
+    
+}
+#mid button:hover{
+    height: 50px;
+    width: 130px;
+    font-size: 2.1rem;
+    background-color: black;
+    color: cyan;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+/* Service section */
+#servicescontent{
+    margin-top: 200px;
+}
+#mainhead{
+    text-align: center;
+    font-size: 2.1rem;
+    background-color: aquamarine;
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    font-family:' Permanent Marker', cursive ;
+    width: 230px;
+    animation: anny 3s ease-in-out .1s 1 forwards;
+    transition: all 1s ease-in-out .1s;
+}
+#mainhead:hover{
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 2.4rem;
+    padding: 15px 15px;
+   
+}
+
+@keyframes anny{
+    from{width: 0px;}
+    to{
+        width: 230px;
+    }
+}
+#content {
+    display: flex;
+    justify-content: space-evenly;
+}
+.services{
+    width: 350px;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(238, 238, 196,0.2);
+}
+
+
+.services img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+   
+}
+.services div{
+    margin: 10px 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.services h1{
+    font-family:' Permanent Marker', cursive ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px violet;
+    padding: 0px 5px;
+}
+/* Our clients part */
+#clientsection{
+    margin-top: 30px;
+    height: 250px;
+    position: relative;
+}
+#clientsection::before{
+    content: "";
+    background: url(../img/groceryfoods.jpg) center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#clientsection div h1{
+    width: 250px;
+  margin: auto;
+  padding: 10px 20px;
+  font-size: 2.7rem;
+  color: white;
+  border: 2px solid white;
+  font-family: 'Pangolin', cursive;;
+}
+#clientsection div h1:hover{
+    background-color: rgb(37, 34, 34);
+    cursor:cell;
+    border: 2px solid rgb(37, 34, 34) ;
+}
+#clientimages{
+    width: 450px;
+    margin: auto;
+    margin-top: 70px;
+} 
+.img{
+    height: 50px;
+    width: 50px;
+    margin: 0px 20px;
+    border-radius: 25px;
+}
+.img1{
+    height: 50px;
+    width: 200px;
+    margin: 0px 20px;
+}
+/* Feedback form */
+
+#feedback{
+    height: 500px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#feedback::before{
+    content: "";
+    background: url(../img/socialmedia.jpg) center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#form h1{
+    width: 165px;
+    margin: auto;
+    font-size: 2.3rem;
+    border: 2px solid blue ;
+    font-family:' Permanent Marker', cursive ;
+    padding: 10px 15px;
+}
+#form h1:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    cursor: cell;
+}
+#feedback  form{
+    margin-top: 20px;
+   
+}
+.input{
+    margin-top: 10px;
+}
+.input input{
+    height: 30px;
+    width: 200px;
+    display: block;
+    padding: 0px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-family: 'Kaushan Script', cursive;
+}
+.input label{
+    margin: 5px 0px;
+    font-size: 1.3rem;
+    display: block;
+    margin: auto;
+    font-family: 'Kaushan Script', cursive;
+}
+/* Footer part */
+.footer{
+    background-color: rgba(3, 3, 3, 0.74);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+

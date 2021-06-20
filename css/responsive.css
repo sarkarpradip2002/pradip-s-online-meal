@@ -1,0 +1,127 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+#navbar ul li{
+    padding: 0px 10px;
+}
+/* Below nav bar making */
+#mid::before{
+    height: 529px;
+    width: 100%;
+    left: 0px;
+}
+#mid h1{
+    font-size: 1.6rem;
+    margin-top: 169px;
+    width: 260px;
+    margin-left: 13px;
+}
+#mid h1:hover{
+    width: 288px;
+    cursor: pointer;
+    color: rgb(230, 235, 233);
+    font-size: 1.8rem;
+    border-radius: 40px;
+    height: 50px;
+    
+}
+#mid{
+    padding: 20px 161px;
+}
+
+#mid div{
+    font-size: 0.9rem;
+   width: 300px;
+   margin-left: 64px;
+}
+#btn{
+     font-size: 0.9rem;
+     margin: 14px 0px;
+     width: 73px;
+}
+#mid button:hover{
+    height: 33px;
+        width: 109px;
+        font-size: 1.5rem;
+       
+        cursor: pointer;
+
+}
+/* Service section */
+#content{
+    flex-direction: column;
+    align-items: center;
+}
+#mainhead{
+    margin-bottom: 14px;
+    font-size: 1.6rem;
+}
+#mainhead:hover{
+    height: 50px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    padding: 15px 15px;
+   
+}
+@keyframes anny{
+    from{width: 0px;}
+    to{
+        width: 200px;
+    }
+}
+#servicescontent{
+    margin-top: 141px;
+}
+.services{
+    margin: 5px;
+    width: 80%;
+}
+/* Our clients part */
+#clientsection{
+    margin-top: 12px;
+    height: 225px;
+}
+#clientsection div h1{
+    width: 156px;
+    font-size: 1.7rem;
+    padding-left: 38px;
+
+}
+#clientimages{
+    margin-left: auto;
+    margin-top: 46px;
+    width: 276px;
+
+}
+.img{
+    margin: 0px 0px;
+    height: 40px;
+    width: 40px;
+}
+.img1{
+    margin: 0px 7px;
+    height: 40px;
+    width: 174px;
+}
+/* Feedback form */
+#form h1{
+    font-size: 1.7rem;
+    padding-left: 36px;
+    width: 150px;
+
+}
+.imput input{
+    width: 155px;
+    font-size: 1.0rem;
+
+}
+.input{
+    margin-top: 4px;
+}
+/* Footer part */
+.footer{
+    font-size: 0.7rem;
+}
+
